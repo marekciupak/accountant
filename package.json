@@ -1,6 +1,10 @@
 {
   "name": "accountant",
   "private": true,
+  "scripts": {
+    "eslint:lint": "eslint --ext .js,.jsx .",
+    "eslint:fix": "eslint --ext .js,.jsx --fix ."
+  },
   "dependencies": {
     "@babel/preset-react": "^7.14.5",
     "@rails/webpacker": "5.4.0",
@@ -13,6 +17,11 @@
   },
   "version": "0.1.0",
   "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "prettier": "2.3.1",
     "webpack-dev-server": "^3.11.2"
   }
 }
