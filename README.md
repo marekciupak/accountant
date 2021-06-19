@@ -8,5 +8,6 @@ Run tests & linters:
 
 ```shell
 $ bundle exec rails test
+$ bundle exec rubocop
 $ yarn run eslint:lint
 ```
