@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "dbaeumer.vscode-eslint",
+    "craigmaslowski.erb",
     "misogi.ruby-rubocop"
   ]
 }
